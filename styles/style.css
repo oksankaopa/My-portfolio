@@ -129,6 +129,44 @@ footer .email-link:hover {
   color: var(--primary-color);
   text-decoration: none;
 }
+.content-conteiner h1 {
+  font-size: 64px;
+
+  line-height: 85px;
+}
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 48px;
+}
+.content-conteiner {
+  padding: 60px 20px;
+}
+.content {
+  margin: 30px;
+  text-align: center;
+  padding: 0;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+.about-img {
+  border-radius: 20px;
+  max-height: 500px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
