@@ -24,6 +24,12 @@ h3 {
 h4 {
   font-size: 36px;
 }
+a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
 nav {
   padding: 20px;
 }
@@ -44,11 +50,10 @@ nav li {
   border: none;
 }
 nav a {
-  text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
+a:hover,
 nav li.active a {
   color: var(--primary-color);
 }
@@ -128,6 +133,11 @@ footer .email-link:hover {
   font-size: 18px;
   line-height: 27px;
 }
+.contact-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 10px 20px;
+}
 .code {
   font-size: 14px;
 }
@@ -169,6 +179,15 @@ footer .email-link:hover {
 }
 .Certificate {
   max-width: 500px;
+}
+.contact-links {
+  margin-left: 30px;
+}
+.contact-links li {
+  list-style: none;
+  text-align: start;
+  font-size: 18px;
+  text-decoration: none;
 }
 @media (max-width: 960px) {
   h1 {
