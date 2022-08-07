@@ -202,4 +202,8 @@ footer .email-link:hover {
   .Certificate {
     max-width: 100px;
   }
+  nav li {
+    font-size: 10px;
+    margin: 5px;
+  }
 }
